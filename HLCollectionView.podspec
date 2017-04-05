@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint HLCollecitonView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint HLCollectionView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,17 +15,16 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HLCollecitonView"
+  s.name         = "HLCollectionView"
   s.version      = "0.0.1"
-  s.summary      = "HLCollecitonView小框架"
+  s.summary      = "HLCollectionView小框架"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "HLCollecitonView小框架-----OC"
-
+  s.description  = "HLCollectionView小框架----OC"
   s.homepage     = "https://github.com/heylau/HLCollectionView.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -78,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/heylau/HLCollectionView.git", :commit => "65bdefb8280061e083b3ca4688b3109e8932eeec" }
+  s.source       = { :git => "https://github.com/heylau/HLCollectionView.git", :commit => "3ca2cceb7f0ea3672c68594115193b21ff350506" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

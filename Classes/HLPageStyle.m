@@ -29,8 +29,10 @@
     self.coverViewRadius = 12.5;
     self.converViewMargin = 8;
     self.coverViewLrEdge = 10;
-    self.isTitleInTop = NO;
+    self.isTitleInTop = YES;
     self.pageControlHeight = 20;
+    self.layoutCols = 4;
+    self.layoutRows = 2;
     return self;
 }
 @end

@@ -71,6 +71,12 @@
 //title显示位置
 @property(assign,nonatomic) BOOL isTitleInTop;
 
+//自定义表情框的列数
+@property(assign,nonatomic) NSInteger layoutCols;
+
+//自定义表情框的行数
+@property(assign,nonatomic) NSInteger layoutRows;
+
 
 
 

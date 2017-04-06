@@ -62,7 +62,7 @@ s.author             = { "heylau" => "iheylau@icloud.com" }
 #
 
 # s.platform     = :ios
-# s.platform     = :ios, "5.0"
+s.platform     = :ios, "8.0"
 
 #  When using multiple platforms
 # s.ios.deployment_target = "5.0"
@@ -77,7 +77,7 @@ s.author             = { "heylau" => "iheylau@icloud.com" }
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/heylau/HLCollectionView.git", :commit => "cc2617bba5624318af2b119c0f5f146a8360ceae" }
+s.source       = { :git => "https://github.com/heylau/HLCollectionView.git", :commit => "54163b414f6eb7a489f285eca42ac59aea153f52" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

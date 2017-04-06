@@ -17,4 +17,6 @@
 @interface HLTitleView : UIView
 -(id)initWithFrame:(CGRect)frame titles:(NSArray*)titles style:(HLPageStyle*)style;
 @property(weak,nonatomic) id<HLTitleViewDelegate> delegate;
+-(void)setCurrentWithIndex:(NSInteger)index;
+
 @end

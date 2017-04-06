@@ -10,7 +10,7 @@
 #import "HLPageCollectionViewLayout.h"
 #import "HLPageStyle.h"
 #import "HLTitleView.h"
-#import "UIView+HLFrame.h"
+
 
 @interface HLPageCollectionView() <HLTitleViewDelegate,UICollectionViewDelegate,UICollectionViewDataSource>
 @property(strong,nonatomic) NSArray *titles;

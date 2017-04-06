@@ -9,7 +9,7 @@
 #import "HLTitleView.h"
 #import "HLPageStyle.h"
 #import "HLContainView.h"
-#import "UIView+HLFrame.h"
+
 
 @interface HLTitleView ()<HLContainViewDelegate>
 

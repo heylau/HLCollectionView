@@ -10,7 +10,8 @@
 #import "HLPageStyle.h"
 #import "HLTitleView.h"
 #import "HLContainView.h"
-#import "UIView+HLFrame.h"
+
+
 
 @interface HLPageVIew()
 @property(strong,nonatomic) NSArray* titles;

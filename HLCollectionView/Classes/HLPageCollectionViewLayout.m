@@ -10,7 +10,7 @@
 
 #import "HLPageCollectionViewLayout.h"
 #import "HLPageStyle.h"
-#import "UIView+HLFrame.h"
+
 
 @interface HLPageCollectionViewLayout ()
 @property(strong,nonatomic) HLPageStyle *style;

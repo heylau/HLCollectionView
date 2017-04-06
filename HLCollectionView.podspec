@@ -89,13 +89,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "HLCollectionView/Classes"
+s.source_files  = "HLCollectionView/Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
-    s.platform     = :ios, '7.0'
-    s.requires_arc = true
+    s.platform     = :ios, '8.0'
+
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -310,5 +310,12 @@
     }
 }
 
+-(void)setCurrentWithIndex:(NSInteger)index
+{
+   
+        UILabel *targetLabel = self.titleLabels[index];
+        [self dealLabel:targetLabel];
+    
+}
 
 @end

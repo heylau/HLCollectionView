@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A8C85891E96B03500B240B1 /* HLPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C85881E96B03500B240B1 /* HLPageCollectionView.m */; };
+		4A8C858C1E96B04C00B240B1 /* HLPageCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C858B1E96B04C00B240B1 /* HLPageCollectionViewLayout.m */; };
 		4ACB74E91E951916003B51A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB74E81E951916003B51A0 /* main.m */; };
 		4ACB74EC1E951916003B51A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB74EB1E951916003B51A0 /* AppDelegate.m */; };
 		4ACB74EF1E951916003B51A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB74EE1E951916003B51A0 /* ViewController.m */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A8C85871E96B03500B240B1 /* HLPageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPageCollectionView.h; sourceTree = "<group>"; };
+		4A8C85881E96B03500B240B1 /* HLPageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPageCollectionView.m; sourceTree = "<group>"; };
+		4A8C858A1E96B04C00B240B1 /* HLPageCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPageCollectionViewLayout.h; sourceTree = "<group>"; };
+		4A8C858B1E96B04C00B240B1 /* HLPageCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPageCollectionViewLayout.m; sourceTree = "<group>"; };
 		4ACB74E41E951916003B51A0 /* HLCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACB74E81E951916003B51A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4ACB74EA1E951916003B51A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				4ACB75041E95193D003B51A0 /* HLPageVIew.m */,
 				4ACB75051E95193D003B51A0 /* HLTitleView.h */,
 				4ACB75061E95193D003B51A0 /* HLTitleView.m */,
+				4A8C85871E96B03500B240B1 /* HLPageCollectionView.h */,
+				4A8C85881E96B03500B240B1 /* HLPageCollectionView.m */,
+				4A8C858A1E96B04C00B240B1 /* HLPageCollectionViewLayout.h */,
+				4A8C858B1E96B04C00B240B1 /* HLPageCollectionViewLayout.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -198,7 +208,9 @@
 				4ACB75081E95193D003B51A0 /* HLContainView.m in Sources */,
 				4ACB74EC1E951916003B51A0 /* AppDelegate.m in Sources */,
 				4ACB750B1E95193D003B51A0 /* HLTitleView.m in Sources */,
+				4A8C85891E96B03500B240B1 /* HLPageCollectionView.m in Sources */,
 				4ACB74E91E951916003B51A0 /* main.m in Sources */,
+				4A8C858C1E96B04C00B240B1 /* HLPageCollectionViewLayout.m in Sources */,
 				4ACB750F1E95242C003B51A0 /* UIView+HLFrame.m in Sources */,
 				4ACB75091E95193D003B51A0 /* HLPageStyle.m in Sources */,
 			);
@@ -359,6 +371,7 @@
 				4ACB74FD1E951916003B51A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

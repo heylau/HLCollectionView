@@ -7,6 +7,7 @@
 //
 
 #import "HLPageStyle.h"
+#import "UIView+HLFrame.h"
 
 @implementation HLPageStyle
 -(instancetype)init

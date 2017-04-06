@@ -8,6 +8,8 @@
 
 #import "HLContainView.h"
 #import "HLTitleView.h"
+#import "UIView+HLFrame.h"
+
 @interface HLContainView () <UICollectionViewDelegate,UICollectionViewDataSource,HLTitleViewDelegate>
 @property(strong,nonatomic) NSArray* childVcs;
 @property(strong,nonatomic) UIViewController *parentVc;

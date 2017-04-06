@@ -8,6 +8,9 @@
 
 #import "HLContainView.h"
 #import "HLTitleView.h"
+#import "UIView+HLFrame.h"
+#define HLColor(r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+#define HLRandomColor [UIColor colorWithRed:arc4random_uniform(256) / 255.0 green:arc4random_uniform(256) / 255.0 blue:arc4random_uniform(256) / 255.0 alpha:1]
 @interface HLContainView () <UICollectionViewDelegate,UICollectionViewDataSource,HLTitleViewDelegate>
 @property(strong,nonatomic) NSArray* childVcs;
 @property(strong,nonatomic) UIViewController *parentVc;

@@ -10,10 +10,13 @@
 
 #import "HLPageCollectionViewLayout.h"
 #import "HLPageStyle.h"
+#import "UIView+HLFrame.h"
+
 @interface HLPageCollectionViewLayout ()
 @property(strong,nonatomic) HLPageStyle *style;
 @property(strong,nonatomic) NSMutableArray *attributes;
 @property(assign,nonatomic) CGFloat totalWidth;
+
 
 @end
 @implementation HLPageCollectionViewLayout

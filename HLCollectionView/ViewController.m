@@ -12,6 +12,8 @@
 #import "HLPageStyle.h"
 #import "HLPageCollectionView.h"
 #import "HLPageCollectionViewLayout.h"
+#import "UIView+HLFrame.h"
+
 @interface ViewController ()<HLPageCollectionViewDataSource>
 
 @end
